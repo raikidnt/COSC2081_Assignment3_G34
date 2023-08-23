@@ -1,3 +1,5 @@
+package src;
+
 public class User {
     private String username;
     private String password;
@@ -7,6 +9,17 @@ public class User {
         this.username = username;
         this.password = password;
         this.role = role;
+    }
+
+    public String getUsername() {
+        return username;
+    }
+
+    public String getPassword() {
+        return password;
+    }
+    public String getRole()   {
+        return role;
     }
 
     public void login() {
